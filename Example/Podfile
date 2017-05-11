@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Cordova_Example' do
+  pod 'Cordova', :path => '../'
+
+  target 'Cordova_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
