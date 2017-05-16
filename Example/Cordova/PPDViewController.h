@@ -7,7 +7,8 @@
 //
 
 @import UIKit;
+#import <Cordova/CDVViewController.h>
 
-@interface PPDViewController : UIViewController
+@interface PPDViewController : CDVViewController
 
 @end

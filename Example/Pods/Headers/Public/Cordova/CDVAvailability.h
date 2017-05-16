@@ -1,0 +1,1 @@
+../../../../../Classes/Public/CDVAvailability.h

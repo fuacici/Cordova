@@ -1,0 +1,1 @@
+../../../../../Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.h

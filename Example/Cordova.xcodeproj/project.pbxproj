@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D2339AB8A26E51121225B34 /* Pods_Cordova_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC7331094F9F6956EA064BF /* Pods_Cordova_Example.framework */; };
+		07CEA5B38449BAEC7763CBFF /* libPods-Cordova_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0375ADB652B6CF46DD28322D /* libPods-Cordova_Example.a */; };
+		237033879AC70EEF9E915664 /* libPods-Cordova_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CD3C7AA08CC782167F0160 /* libPods-Cordova_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +23,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7768B29A236F41D42A4CC5FD /* Pods_Cordova_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D7384479D16B47371D6CEA /* Pods_Cordova_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1FC7331094F9F6956EA064BF /* Pods_Cordova_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cordova_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0375ADB652B6CF46DD28322D /* libPods-Cordova_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cordova_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25CD3C7AA08CC782167F0160 /* libPods-Cordova_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cordova_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		314EEBD1CB3BA69448E0E7C6 /* Cordova.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Cordova.podspec; path = ../Cordova.podspec; sourceTree = "<group>"; };
-		47D7384479D16B47371D6CEA /* Pods_Cordova_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cordova_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF54001A2E3273FF4D0B109 /* Pods-Cordova_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cordova_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cordova_Example/Pods-Cordova_Example.release.xcconfig"; sourceTree = "<group>"; };
 		535D7BA2C661CE744DA0C450 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Cordova_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cordova_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				0D2339AB8A26E51121225B34 /* Pods_Cordova_Example.framework in Frameworks */,
+				07CEA5B38449BAEC7763CBFF /* libPods-Cordova_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				7768B29A236F41D42A4CC5FD /* Pods_Cordova_Tests.framework in Frameworks */,
+				237033879AC70EEF9E915664 /* libPods-Cordova_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				1FC7331094F9F6956EA064BF /* Pods_Cordova_Example.framework */,
-				47D7384479D16B47371D6CEA /* Pods_Cordova_Tests.framework */,
+				0375ADB652B6CF46DD28322D /* libPods-Cordova_Example.a */,
+				25CD3C7AA08CC782167F0160 /* libPods-Cordova_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

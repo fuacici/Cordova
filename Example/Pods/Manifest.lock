@@ -1,0 +1,18 @@
+PODS:
+  - Cordova (4.4.0):
+    - Cordova/Base (= 4.4.0)
+  - Cordova/Base (4.4.0)
+
+DEPENDENCIES:
+  - Cordova (from `../`)
+
+EXTERNAL SOURCES:
+  Cordova:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Cordova: 2a5288453400625b48044ea0b6144fd75f1d1e4e
+
+PODFILE CHECKSUM: 16351cec2d1093d199aecaab4cf565fe6481cdba
+
+COCOAPODS: 1.2.1
